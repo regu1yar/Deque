@@ -1,4 +1,4 @@
-# Install script for directory: /Users/romanklimovitskiy/Documents/Программирование/Продвинутый поток/Deque
+# Install script for directory: /Users/romanklimovitskiy/Documents/Программирование/GitHub/Deque
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/romanklimovitskiy/Documents/Программирование/Продвинутый поток/Deque/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/romanklimovitskiy/Documents/Программирование/GitHub/Deque/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

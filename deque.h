@@ -82,7 +82,6 @@ public:
 
     friend long long operator-(const DequeIterator& iter1, const DequeIterator& iter2) { return iter1.diff - iter2.diff; }
 
-
     friend bool operator==(const DequeIterator& iter1, const DequeIterator& iter2) { return (iter1.diff == iter2.diff); }
     friend bool operator!=(const DequeIterator& iter1, const DequeIterator& iter2) { return !(iter1 == iter2); }
     friend bool operator<(const DequeIterator& iter1, const DequeIterator& iter2) { return iter1.diff < iter2.diff; }
@@ -94,7 +93,7 @@ public:
     Type& operator*() {
         return (*deque)[diff];
     }
-//
+
     Type& operator[](long long i) {
         return (*deque)[diff + i];
     }

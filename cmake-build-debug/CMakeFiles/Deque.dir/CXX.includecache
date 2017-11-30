@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/romanklimovitskiy/Documents/Программирование/Продвинутый поток/Deque/deque.h
+/Users/romanklimovitskiy/Documents/Программирование/GitHub/Deque/deque.h
 iostream
 -
 vector
@@ -16,14 +16,16 @@ cassert
 gtest/gtest.h
 -
 
-/Users/romanklimovitskiy/Documents/Программирование/Продвинутый поток/Deque/main.cpp
+/Users/romanklimovitskiy/Documents/Программирование/GitHub/Deque/main.cpp
 iostream
 -
 deque.h
-/Users/romanklimovitskiy/Documents/Программирование/Продвинутый поток/Deque/deque.h
+/Users/romanklimovitskiy/Documents/Программирование/GitHub/Deque/deque.h
 deque
 -
 time.h
+-
+fstream
 -
 
 /Users/romanklimovitskiy/googletest/googletest/include/gtest/gtest-death-test.h
